@@ -1,21 +1,32 @@
 body{
+  background:url(hatterkocka.png);
   background-color: #ededc1;
   background-size: 70px 70px;
   background-repeat: repeat-y;
   background-position: right top;
   padding: 15px 95px 15px 15px;
+  
+  color: #443502;
 }
 
-#cimkep{
-  float:left;  
-}
 
+#cimkep {
+    width: 150px;       /* kis ikon */
+    height: auto;      /* arányos */
+    display: block;    /* új sorban kezdődik */
+    position: absolute; /* az oldal bal szélén */
+    top: 30px;         /* a h1 tetejéhez igazítva */
+    left: 10px;           /* bal szélre */
+}
 h1{
+  
   margin: 40px 0px 100px 175px;
+ 
 }
 
 p{
   text-align: justify;
+  margin: 5px;
 }
 
 
@@ -27,9 +38,17 @@ p{
   font-size: 70%;
   padding: 7px;
   font-weight: normal;
+  font-style: italic;      
+  background-color: white;
+ 
 }
 
 li{
   font-weight:bold;
+  list-style-type: square; 
+  margin-left: 2em; 
 }
 
+.felkover{
+  font-weight: bold;
+}
